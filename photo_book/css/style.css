@@ -1,0 +1,119 @@
+body {
+    background-color: azure;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 10px;
+    background-color: azure;
+}
+
+.header {
+    margin-top: 40px;
+    margin-bottom: 5px;
+}
+
+.mainvisual {
+    max-width: 1000px;
+}
+
+.mainvisual img {
+    max-width: 1000px;
+    width: 100%;
+    display: block;
+    margin-bottom: 50px;
+}
+
+.section_contents {
+    max-width: 600px;
+    margin: 0 auto 60px auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+@media only screen and (max-width: 1024px) {
+    .section_contents {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}
+
+.section_contents h2 {
+    margin-bottom: 10px;
+}
+
+.section_contents ol {
+    margin-left: 20px;
+}
+
+.section_contents ol li {
+    margin-bottom: 1em;
+    font-size: 14px;
+}
+
+.index {
+    background-color: white;
+}
+
+.detail_contant {
+    display: flex;
+}
+
+.detail_contant img {
+    margin-right: 40px;
+}
+
+@media only screen and (max-width: 1024px) {
+    .detail_contant {
+        flex-direction: column;
+    }
+
+    .detail_contant img {
+        width: 530px;
+        height: auto;
+        max-width: 100%;
+        margin-bottom: 40px;
+    }
+}
+
+.detail_text {
+    font-size: 14px;
+}
+
+.detail_text h3 {
+    margin-bottom: 24px;
+}
+
+.detail_text dl {
+    display: flex;
+    flex-wrap: wrap;
+    border-top: solid 1px #dedede;
+    border-bottom: solid 1px #dedede;
+    padding: 14px 0;
+    margin-bottom: 26px;
+}
+
+.detail_text dt {
+    width: 25%;
+}
+
+.detail_text dd {
+    width: 75%;
+}
+
+.detail_text p {
+    margin-bottom: 20px;
+}
+
+.footer {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+@media only screen and (max-width: 1024px) {
+    .footer {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}

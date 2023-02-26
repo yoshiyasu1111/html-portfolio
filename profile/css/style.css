@@ -1,0 +1,137 @@
+.wrapper {
+    max-width: 960px;
+    padding: 0 4%;
+    margin: 0 auto;
+    /* background-color: blanchedalmond; */
+}
+
+#header {
+    height: 60px;
+}
+
+.header_contents {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.logo {
+    margin-left: 20px;
+}
+
+.logo img {
+    display: block;
+}
+
+.header_contents li {
+    display: inline;
+    margin-left: 30px;
+}
+
+#mainvisual {
+    height: 600px;
+    margin-bottom: 80px;
+}
+
+#mainvisual img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.section_contents {
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+/* #about {
+} */
+
+/* .about_contents {
+} */
+
+h2 {
+    font-size: 32px;
+    display: inline-block;
+    border-bottom: solid 1px dimgray;
+    margin-bottom: 60px;
+}
+
+.about_profile {
+    display: flex;
+    justify-content: center;
+}
+
+.about_profile img {
+    border-radius: 60px;
+}
+
+@media only screen and (max-width: 600px) {
+    .about_profile {
+        flex-direction: column;
+    }
+    .about_profile img {
+        display: block;
+        margin: auto;
+    }
+}
+
+.about_text {
+    margin-left: 30px;
+    text-align: left;
+}
+.about_text h3 {
+    margin: 10px 0;
+}
+
+.about_description {
+    margin-top: 10px;
+}
+
+/* #bicyle {
+} */
+
+.bicycle_articles {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bicycle_articles li {
+    margin: 0 10px;
+}
+
+.bicycle_articles li img {
+    max-width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+    .bicycle_articles {
+        flex-direction: column;
+    }
+    .bicycle_articles li {
+        margin-bottom: 30px;
+    }
+}
+
+.bicycle_articles li h3 {
+    margin: 5px 0;
+}
+
+#footer {
+    text-align: center;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+a:hover {
+    color: dimgray;
+}
+
+li {
+    list-style: none;
+}
